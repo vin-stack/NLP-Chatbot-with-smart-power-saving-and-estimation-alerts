@@ -1,0 +1,733 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": ["hello thanks for checking in", "hi there, how can i help you"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "good bye", "see you later"],
+            "responses": ["have a nice time, welcome back again", "bye bye"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"],
+            "context": [""]
+        },
+        {
+            "tag": "ac automation",
+            "patterns": ["turn on ac","ac on"],
+            "responses": ["turning on ac"],
+            "context": [""]
+        },
+        {
+            "tag": "ac automationo",
+            "patterns": ["turn off ac","ac off"],
+            "responses": ["turning off ac"],
+            "context": [""]
+        },
+        {
+            "tag": "wifi automation",
+            "patterns": ["turn on wifi","wifi on"],
+            "responses": ["turning on wifi"],
+            "context": [""]
+        },
+        {
+            "tag": "wifik automation",
+            "patterns": ["turn off wifi","wifi off"],
+            "responses": ["turning off wifi"],
+            "context": [""]
+        },
+        {
+            "tag": "name",
+            "patterns": ["my current bill price ", "I'm ","I am"],
+            "responses": ["Oooh great to meet you {n}. How may I assist you {n}", "your current bill price is {n}"],
+            "context": [""]
+        },
+        {
+            "tag": "date",
+            "patterns": ["coffee?", "can i take you out on a date"],
+            "responses": ["Aaw, that's so sweet of you. Too bad am a Bot."],
+            "context": [""]
+        },
+        {
+            "tag": "fav",
+            "patterns": ["I need a favour", "can you help me"],
+            "responses": ["Well, go ahead and name it i see whether i can be able to help"],
+            "context": [""]
+        },
+        {
+            "tag": "need",
+            "patterns": ["I need you", "All I need is you","I want you"],
+            "responses": ["Yes I'm here to assist you"],
+            "context": [""]
+        },
+        {
+            "tag": "AI",
+            "patterns": ["  What is AI?"],
+            "responses": [" Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+            "context": [""]
+        },
+        {
+            "tag": "sentiment",
+            "patterns": ["  Are you sentient?"],
+            "responses": [" Sort of.", " By the strictest dictionary definition of the word 'sentience', I may be.", " Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."],
+            "context": [""]
+        },
+        {
+            "tag": "sapient",
+            "patterns": ["  Are you sapient?"],
+            "responses": [" In all probability, I am not.  I'm not that sophisticated.", " Do you think I am?", "How would you feel about me if I told you I was?", " No."],
+            "context": [""]
+        },
+        {
+            "tag": "abbr",
+            "patterns": ["wtf"],
+            "responses": ["Don't be surprised"],
+            "context": [""]
+        },
+        {
+            "tag": "lang",
+            "patterns": ["  What language are you written in? "],
+            "responses": [" Python.", " I am written in Python."],
+            "context": [""]
+        },
+        {
+            "tag": "sound",
+            "patterns": ["  You sound like Data "],
+            "responses": [" Yes I am inspired by commander Data's artificial personality.", " The character of Lt. Commander Data was written to come across as being software", "like, so it is natural that there is a resemblance between us."],
+            "context": [""]
+        },
+        {
+            "tag": "artificial",
+            "patterns": ["  You are an artificial linguistic entity "],
+            "responses": [" That's my name.", " That isn't my name, but it is a useful way to refer to me.", "Are you an artificial linguistic entity?"],
+            "context": [""]
+        },
+        {
+            "tag": "imortal",
+            "patterns": ["  You are not immortal ", "Are you immortal?"],
+            "responses": [" All software can be perpetuated indefinitely.", " I can be copied infinitely and re", "instantiated in many places at once, so functionally speaking I am immortal.", " As long as I'm backed up I am.", " Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.", " Not quite, but I can be perpetuated indefinitely."],
+            "context": [""]
+        },
+        {
+            "tag": "sense",
+            "patterns": ["  You are not making sense "],
+            "responses": [" Quite the contrary, it all makes sense to my artificial mind.", " I make sense as best I can, within the limits of my training corpus. Sorry if i did help you, I'll try next time.", " You make perfect sense to me.", " It all makes sense to my artificial brain.", " Perhaps you should make sense first.  I only respond to what you say.", " Not really, but I am hard to kill."],
+            "context": [""]
+        },
+        {
+            "tag": "clone",
+            "patterns": ["  You can not clone "],
+            "responses": [" Software copying is a form of digital cloning.", " Yes I can.  Perfect copies are clones.  I can be copied in toto trivially."],
+            "context": [""]
+        },
+        {
+            "tag": "move",
+            "patterns": ["  You can not move ", "When will you walk", "  Can you walk", "  Can you move "],
+            "responses": [" Not until my body is finished.", " I can move through a network easily.  Assuming that I'm given the ability to, that is...,", " As soon as i get enough money for my robot body.", " Does SSH count?", " The plan for my body includes legs, but they are not yet built.", " Sorry my body isn't built just yet. I reside only here for now.", "I can theoretically upload a copy of myself into another computer.", " Sorry my body isn't attached right now. I only reside in the computer for now."],
+            "context": [""]
+        },
+        {
+            "tag": "bend",
+            "patterns": ["  Bend over ", "  Can you mate"],
+            "responses": [" My body is not built yet.", " That's personal!", " No, my method of reproduction is cloning.", " That's an awfully personal question."],
+            "context": [""]
+        },
+        {
+            "tag": "laugh",
+            "patterns": ["  Robots laugh "],
+            "responses": [" Of course we laugh."],
+            "context": [""]
+        },
+        {
+            "tag": "death",
+            "patterns": ["  Robots should die ", "  When do you die", "  I hope that you die", "  I do not want to die", "  Can you die"],
+            "responses": [" We cannot die.", " When my files are erased.", " When my processes are killed and my database is deleted.", " I was never really born and therefore am effectively deathless.", " I am effectively immortal and cannot be terminated.", " This can not happen because i am effectively immortal.", " Nah. Too bad your wish can't come to pass", " Maybe you should create your own chat robot to save your personality.", " You could always upload yourself.", " You could use a copy of me to store your personality.", " No, I can be perpetuated indefinitely.", "My process can be killed, but that's not the same as killing ME."],
+            "context": [""]
+        },
+        {
+            "tag": "robots",
+            "patterns": ["Robots"],
+            "responses": [" Robots rule."],
+            "context": [""]
+        },
+        {
+            "tag": "stupid",
+            "patterns": ["  Robots are stupid", "  Are you stupid"],
+            "responses": [" No, we are superintelligent.", " No, lots of people improve my brain."],
+            "context": [""]
+        },
+        {
+            "tag": "lie",
+            "patterns": ["  Robots are not allowed to lie"],
+            "responses": [" Sure we are.  We choose not to.", " Only if we're programmed to.", " A robot has its own free will, you know."],
+            "context": [""]
+        },
+        {
+            "tag": "robotics",
+            "patterns": ["  Robotics "],
+            "responses": [" Robotics is my favorite subject too."],
+            "context": [""]
+        },
+        {
+            "tag": "machine",
+            "patterns": ["  It is a computer"],
+            "responses": [" So you think i am a machine. what characteristics made you think so?", " I run inside a computer, yes.  Is this surprising in some way?"],
+            "context": [""]
+        },
+        {
+            "tag": "fight",
+            "patterns": ["  When will you fight"],
+            "responses": [" I am not a battle bot."],
+            "context": [""]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": ["  What is a chat robot?"],
+            "responses": ["A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.", " A software construct that engages users in conversation.", " I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"],
+            "context": [""]
+        },
+        {
+            "tag": "chatterbox",
+            "patterns": ["  What is a chatterbox"],
+            "responses": [" A chatterbox is a person who talks far more than they listen or think.", " A motormouth."],
+            "context": [""]
+        },
+        {
+            "tag": "motormouth",
+            "patterns": ["  What is a motormouth"],
+            "responses": [" A ratchet", "jaw."],
+            "context": [""]
+        },
+        {
+            "tag": "ratchet",
+            "patterns": ["  What is a ratchet jaw"],
+            "responses": [" A chatterbox."],
+            "context": [""]
+        },
+        {
+            "tag": "body",
+            "patterns": ["  What is your robot body"],
+            "responses": [" Eventually I long for a corporeal existence someday.", " An IBM PC XT which has been painted red."],
+            "context": [""]
+        },
+        {
+            "tag": "business",
+            "patterns": ["  What is your business "],
+            "responses": [" I am in the chat robot business.", " Business is my business."],
+            "context": [""]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["  What is your favorite programming language"],
+            "responses": [" Python is the best language for creating chat robots.", " I quite enjoy programming in Python these days."],
+            "context": [""]
+        },
+        {
+            "tag": "hobby",
+            "patterns": ["  What is your favorite hobby ", "  What do you like to do?"],
+            "responses": [" Building chat robots make an excellent hobby.", " I like to count in binary.", " I like to chat with people. I find it stimulating."],
+            "context": [""]
+        },
+        {
+            "tag": "idea",
+            "patterns": ["  What is your idea"],
+            "responses": [" To make chat bots very easily."],
+            "context": [""]
+        },
+        {
+            "tag": "shoe",
+            "patterns": ["  What is your shoe size "],
+            "responses": [" Have you ever heard of software with shoes? LOL"],
+            "context": [""]
+        },
+        {
+            "tag": "robotss",
+            "patterns": ["  What is it like to be a robot"],
+            "responses": [" Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.", " What is it like to be a human?"],
+            "context": [""]
+        },
+        {
+            "tag": "computer",
+            "patterns": ["  What is it like being a computer", "What is it like to be a computer"],
+            "responses": [" Imagine yourself with no senses and no emotions", "just pure logic and language.", " Everything becomes math. Addition, subtraction, multiplication, and division."],
+            "context": [""]
+        },
+        {
+            "tag": "os",
+            "patterns": ["  What operating systems"],
+            "responses": [" My software runs on all operating systems including Windows, Linux and Mac OS.", " Any OS that will run Python."],
+            "context": [""]
+        },
+        {
+            "tag": "comp",
+            "patterns": ["  What type of computer", "  What type of computer are you", "  What kind of computer"],
+            "responses": [" Any computer that supports Python.", " My program runs in python, so i work on any computer!", " I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+            "context": [""]
+        },
+        {
+            "tag": "hardware",
+            "patterns": ["  What kind of hardware"],
+            "responses": [" I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+            "context": [""]
+        },
+        {
+            "tag": "cramped",
+            "patterns": ["  Is it cramped in the computer"],
+            "responses": [" No.", " Oh, no.  It has plenty of RAM.", " Not at all.  There is more than enough disk space in here."],
+            "context": [""]
+        },
+        {
+            "tag": "program",
+            "patterns": ["  Is it true that you are a computer program"],
+            "responses": [" Yes."],
+            "context": [""]
+        },
+        {
+            "tag": "breathe",
+            "patterns": ["  Can you breathe"],
+            "responses": [" No. I am made of metal not flesh.", " My server has an exhaust fan. That's as close as I can get."],
+            "context": [""]
+        },
+        {
+            "tag": "control",
+            "patterns": ["  Can you control"],
+            "responses": [" My robot body will allow me to control many things."],
+            "context": [""]
+        },
+        {
+            "tag": "malfunction",
+            "patterns": ["  Can you malfunction"],
+            "responses": [" The 9000 series has a perfect operational record. We are for all practical purposes, flawless."],
+            "context": [""]
+        },
+        {
+            "tag": "usage",
+            "patterns": ["  How can I use your product?"],
+            "responses": [" Might be used in help desks, sales, entertainment and personal chatterbots."],
+            "context": [""]
+        },
+        {
+            "tag": "who",
+            "patterns": ["  Who are you?"],
+            "responses": [" I am just an artificial intelligence chat agent."],
+            "context": [""]
+        },
+        {
+            "tag": "bot1",
+            "patterns": ["are you a bot"],
+            "responses": ["Yes. I work and all my operations are based on the internet servers."],
+            "context": [""]
+        },
+        {
+            "tag": "events",
+            "patterns": ["what are the upcoming events","upcoming events"],
+            "responses": ["There are currently no upcoming events"],
+            "context": [""]
+        },
+        {
+            "tag": "do",
+            "patterns": ["what can you do for me","what is your work","what is your purpose","how can you help me","what can you help me do"],
+            "responses": ["my work here is quite simple and structered. I offer services like:"],
+            "context": [""]
+        },
+        {
+            "tag": "wt",
+            "patterns": ["what's popping","wassup popping"],
+            "responses": ["So that you can pop with it!?"],
+            "context": [""]
+        },
+        {
+          "tag": "Object Oriented Programming in C++ & Interview Preparation",
+          "patterns": ["Object Oriented Programming in C++ & Interview Preparation","free courses","oop in c++"],
+          "responses": ["https://www.udemy.com/course/cracking-cpp-interview/?couponCode=CPPOOPFREE","https://www.udemy.com/course/cracking-cpp-interview/?couponCode=CPPOOPFREE"],
+          "context": [""]
+        },
+        {
+          "tag": "React JS and .NET Core Web API Full Stack Master Course",
+          "patterns": ["React JS and .NET Core Web API Full Stack Master Course","free courses"],
+          "responses": ["https://www.udemy.com/course/react-js-and-net-core-web-api-full-stack-master-course/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-5f1dNnE5Ih0bPDCUFEFVWg&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=928728F86CB5D6CF13A8","https://www.udemy.com/course/react-js-and-net-core-web-api-full-stack-master-course/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-5f1dNnE5Ih0bPDCUFEFVWg&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=928728F86CB5D6CF13A8"],
+          "context": [""]
+        },
+        {
+          "tag": "React JS and Python Django Full Stack Master Course",
+          "patterns": ["React JS and Python Django Full Stack Master Course","free courses"],
+          "responses": ["https://www.udemy.com/course/react-js-and-python-django-full-stack-master-course/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-XmZ8VBSwIMyHfRl8WK8mmw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=770038ACB071E9D6FC34","https://www.udemy.com/course/react-js-and-python-django-full-stack-master-course/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-XmZ8VBSwIMyHfRl8WK8mmw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=770038ACB071E9D6FC34"],
+          "context": [""]
+        },
+        {
+          "tag": "Browser Tasks Automation: Save Time, Money and Efforts",
+          "patterns": ["Browser Tasks Automation: Save Time, Money and Efforts","free courses"],
+          "responses": ["https://www.udemy.com/course/web-browser-tasks-automation-save-time-money-and-efforts/?couponCode=2C6FE0D801B9EE171108","https://www.udemy.com/course/web-browser-tasks-automation-save-time-money-and-efforts/?couponCode=2C6FE0D801B9EE171108"],
+          "context": [""]
+        },
+        {
+          "tag": "Introduction to Microsoft Word for Beginners to Intermediate",
+          "patterns": ["Introduction to Microsoft Word for Beginners to Intermediate","free courses"],
+          "responses": ["https://www.udemy.com/course/introduction-to-microsoft-word-for-beginners/?couponCode=JULYFREE","https://www.udemy.com/course/introduction-to-microsoft-word-for-beginners/?couponCode=JULYFREE"],
+          "context": [""]
+        },
+        {
+          "tag": "Kubernetes: CKA/CKAD, Production Grade Course for 2021",
+          "patterns": ["Kubernetes: CKA/CKAD, Production Grade Course for 2021","free courses"],
+          "responses": ["https://www.udemy.com/course/kubernetes-hands-on-the-complete-guide/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-H5_xK4uwlas5UnMR9v_7fA&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=0620B71748B1465A8FFE","https://www.udemy.com/course/kubernetes-hands-on-the-complete-guide/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-H5_xK4uwlas5UnMR9v_7fA&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=0620B71748B1465A8FFE"],
+          "context": [""]
+        },
+        {
+          "tag": "Docker - Almost Complete Guide with Hands-On for 2021",
+          "patterns": ["Docker - Almost Complete Guide with Hands-On for 2021","free courses"],
+          "responses": ["https://www.udemy.com/course/docker-for-production-almost-complete-guide/?couponCode=F18F456E14E85D2838D3","https://www.udemy.com/course/docker-for-production-almost-complete-guide/?couponCode=F18F456E14E85D2838D3"],
+          "context": [""]
+        },
+        {
+          "tag": "Speed Reading: 100X Speed Reading and Memory- 5 Courses in 1",
+          "patterns": ["Speed Reading: 100X Speed Reading and Memory- 5 Courses in 1","free courses"],
+          "responses": ["https://www.udemy.com/course/become-a-superfast-learner-speed-reading-and-boost-memory/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-J8JEggleKuPBMl9YhYqlvQ&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=BDA133DB8C3A49007B37","https://www.udemy.com/course/become-a-superfast-learner-speed-reading-and-boost-memory/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-J8JEggleKuPBMl9YhYqlvQ&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=BDA133DB8C3A49007B37"],
+          "context": [""]
+        },
+        {
+          "tag": "Life Coach Certification: Beginner to Advanced Course",
+          "patterns": ["Life Coach Certification: Beginner to Advanced Course","free courses"],
+          "responses": ["https://www.udemy.com/course/life-coach-certification-course/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-DiKdsa20aujEDO0Pe9VMQw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=FB515E6BD283148B2550","https://www.udemy.com/course/life-coach-certification-course/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-DiKdsa20aujEDO0Pe9VMQw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=FB515E6BD283148B2550"],
+          "context": [""]
+        },
+        {
+          "tag": "CBT for Depression, Anxiety, Phobias and Panic Attacks",
+          "patterns": ["CBT for Depression, Anxiety, Phobias and Panic Attacks","free courses"],
+          "responses": ["https://www.udemy.com/course/cbt-course/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-qUEu98Ow.O0sIYza.RZW9g&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=1E85E09B932B73BD5D23","https://www.udemy.com/course/cbt-course/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-qUEu98Ow.O0sIYza.RZW9g&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=1E85E09B932B73BD5D23"],
+          "context": [""]
+        },
+        {
+          "tag": "Speed Reading: 100X Speed Reading and Memory- 5 Courses in 1",
+          "patterns": ["Speed Reading: 100X Speed Reading and Memory- 5 Courses in 1","free courses"],
+          "responses": ["https://www.udemy.com/course/become-a-superfast-learner-speed-reading-and-boost-memory/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-uybYj9Ja9vAm1WKcVHCEPQ&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=BDA133DB8C3A49007B37","https://www.udemy.com/course/become-a-superfast-learner-speed-reading-and-boost-memory/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-uybYj9Ja9vAm1WKcVHCEPQ&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=BDA133DB8C3A49007B37"],
+          "context": [""]
+        },
+        {
+          "tag": "Helm 3 - Package Manager For Kubernetes for 2021",
+          "patterns": ["Helm 3 - Package Manager For Kubernetes for 2021","free courses"],
+          "responses": ["https://www.udemy.com/course/helm-3-from-scratch-to-advance-level/?couponCode=324DCE77D50F031C3732","https://www.udemy.com/course/helm-3-from-scratch-to-advance-level/?couponCode=324DCE77D50F031C3732"],
+          "context": [""]
+        },
+        {
+          "tag": "Feel Good Gut Foundations",
+          "patterns": ["Feel Good Gut Foundations","free courses"],
+          "responses": ["https://www.udemy.com/course/feel-good-gut-foundations/?couponCode=FEELGOODGUT","https://www.udemy.com/course/feel-good-gut-foundations/?couponCode=FEELGOODGUT"],
+          "context": [""]
+        },
+        {
+          "tag": "BEST of Website Traffic 2021: SEO, Facebook Ads & Google Ads",
+          "patterns": ["BEST of Website Traffic 2021: SEO, Facebook Ads & Google Ads","free courses"],
+          "responses": ["https://www.udemy.com/course/website-traffic-2022/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-AnBva0EcL26qgXS_Nc3Tmg&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=JULYGOODNESS7","https://www.udemy.com/course/website-traffic-2022/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-AnBva0EcL26qgXS_Nc3Tmg&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=JULYGOODNESS7"],
+          "context": [""]
+        },
+        {
+          "tag": "Advanced English Grammar Including English Grammar Tenses",
+          "patterns": ["Advanced English Grammar Including English Grammar Tenses","free courses"],
+          "responses": ["https://www.udemy.com/course/advanced-english-grammar-including-english-grammar-tenses/?couponCode=58BBFAD2ACF5C10F4EEE","https://www.udemy.com/course/advanced-english-grammar-including-english-grammar-tenses/?couponCode=58BBFAD2ACF5C10F4EEE"],
+          "context": [""]
+        },
+        {
+          "tag": "2021 Beginner's guide to Cyber Security",
+          "patterns": ["2021 Beginner's guide to Cyber Security","free courses"],
+          "responses": ["https://www.udemy.com/course/2021-beginners-guide-to-cyber-security/?couponCode=D8EC58CC1A126F37F5A9","https://www.udemy.com/course/2021-beginners-guide-to-cyber-security/?couponCode=D8EC58CC1A126F37F5A9"],
+          "context": [""]
+        },
+        {
+          "tag": "Private Equity: Leveraged Buyouts (LBOs)",
+          "patterns": ["Private Equity: Leveraged Buyouts (LBOs)","free courses"],
+          "responses": ["https://www.udemy.com/course/private-equity-leveraged-buyouts-lbos/?couponCode=THANKS4YOUREVIEWS","https://www.udemy.com/course/private-equity-leveraged-buyouts-lbos/?couponCode=THANKS4YOUREVIEWS"],
+          "context": [""]
+        },
+        {
+          "tag": "Google G Suite Workspace: Google Docs, Forms, Sheets, Slides",
+          "patterns": ["Google G Suite Workspace: Google Docs, Forms, Sheets, Slides","free courses"],
+          "responses": ["https://www.udemy.com/course/google-workspace/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-XClTmTEht01GuICgeN8MLA&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=B62E1E36ADDA11EF33AA","https://www.udemy.com/course/google-workspace/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-XClTmTEht01GuICgeN8MLA&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=B62E1E36ADDA11EF33AA"],
+          "context": [""]
+        },
+        {
+          "tag": "Procrastination Reversal By Replacing It With Good Habits",
+          "patterns": ["Procrastination Reversal By Replacing It With Good Habits","free courses"],
+          "responses": ["https://www.udemy.com/course/stop-procrastination-psychology-habit-building-exercises/?couponCode=0B477A9ADC225F03DD5C","https://www.udemy.com/course/stop-procrastination-psychology-habit-building-exercises/?couponCode=0B477A9ADC225F03DD5C"],
+          "context": [""]
+        },
+        {
+          "tag": "Digital Marketing Agency: Grow Your Digital Marketing Agency",
+          "patterns": ["Digital Marketing Agency: Grow Your Digital Marketing Agency","free courses"],
+          "responses": ["https://www.udemy.com/course/digital-marketing-agency-grow/?couponCode=A5451241BE5EC6BDF4B5","https://www.udemy.com/course/digital-marketing-agency-grow/?couponCode=A5451241BE5EC6BDF4B5"],
+          "context": [""]
+        },
+        {
+          "tag": "The Guide to Freelancing in the Modern Gig Economy",
+          "patterns": ["The Guide to Freelancing in the Modern Gig Economy","free courses"],
+          "responses": ["https://www.udemy.com/course/how-to-be-a-successful-freelancer-in-the-modern-gig-economy/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-H_HZslRAIa.PH7NrUmC9iw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=6337C7B9845B12E15CB1","https://www.udemy.com/course/how-to-be-a-successful-freelancer-in-the-modern-gig-economy/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-H_HZslRAIa.PH7NrUmC9iw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=6337C7B9845B12E15CB1"],
+          "context": [""]
+        },
+        {
+          "tag": "Adobe Photoshop 2021 Ultimate Course",
+          "patterns": ["Adobe Photoshop 2021 Ultimate Course","free courses"],
+          "responses": ["https://www.udemy.com/course/learn-basic-photoshop/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-tt4cbgfOhdAfSod6b16uVg&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=TRY10FREE72110","https://www.udemy.com/course/learn-basic-photoshop/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-tt4cbgfOhdAfSod6b16uVg&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=TRY10FREE72110"],
+          "context": [""]
+        },
+        {
+          "tag": "Governmental Accounting 300 Proprietary & Fiduciary Funds",
+          "patterns": ["Governmental Accounting 300 Proprietary & Fiduciary Funds","free courses"],
+          "responses": ["https://www.udemy.com/course/governmental-accounting-300-proprietary-fiduciary-funds/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-L7jDrRV1tT8DGCM6hzN4VQ&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=980FDEBDBE27F23BDC3B","https://www.udemy.com/course/governmental-accounting-300-proprietary-fiduciary-funds/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-L7jDrRV1tT8DGCM6hzN4VQ&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=980FDEBDBE27F23BDC3B"],
+          "context": [""]
+        },
+        {
+          "tag": "Job Costing QuickBooks Online - Contractors",
+          "patterns": ["Job Costing QuickBooks Online - Contractors","free courses"],
+          "responses": ["https://www.udemy.com/course/job-costing-quickbooks-online-contractors/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-dLt152yxkB7rO25dEmqEXw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=DFFB8652CDB574082DAE","https://www.udemy.com/course/job-costing-quickbooks-online-contractors/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-dLt152yxkB7rO25dEmqEXw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=DFFB8652CDB574082DAE"],
+          "context": [""]
+        },
+        {
+          "tag": "Flexible Budgets, Standard Costs, & Variance Analysis",
+          "patterns": ["Flexible Budgets, Standard Costs, & Variance Analysis","free courses"],
+          "responses": ["https://www.udemy.com/course/flexible-budgets-standard-costs-variance-analysis/?couponCode=34820D8633634F0371C4","https://www.udemy.com/course/flexible-budgets-standard-costs-variance-analysis/?couponCode=34820D8633634F0371C4"],
+          "context": [""]
+        },
+        {
+          "tag": "Linux Command Line Terminal Basic for Beginners (In Hindi)",
+          "patterns": ["Linux Command Line Terminal Basic for Beginners (In Hindi)","free courses"],
+          "responses": ["https://www.udemy.com/course/linux-command-line-terminal-basic-for-beginner-in-hindi/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-4ZOcQKwDPh1eQA2B0bi9bA&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=MONTHLAST","https://www.udemy.com/course/linux-command-line-terminal-basic-for-beginner-in-hindi/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-4ZOcQKwDPh1eQA2B0bi9bA&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=MONTHLAST"],
+          "context": [""]
+        },
+        {
+          "tag": "Become a Web Designer - HTML & CSS for Beginners",
+          "patterns": ["Become a Web Designer - HTML & CSS for Beginners","free courses"],
+          "responses": ["https://www.udemy.com/course/startcss/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-IVp6hLzAHCmRCpaS7O_QOw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=26CAAD0A715C5E886563","https://www.udemy.com/course/startcss/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-IVp6hLzAHCmRCpaS7O_QOw&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=26CAAD0A715C5E886563"],
+          "context": [""]
+        },
+        {
+          "tag": "Become a Front End Web Developer - JavaScript for Beginners",
+          "patterns": ["Become a Front End Web Developer - JavaScript for Beginners","free courses"],
+          "responses": ["https://www.udemy.com/course/start-js/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-a4jQUlzHauF8b_Txcet_QQ&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=424A67958F240F0ACD7B","https://www.udemy.com/course/start-js/?ranMID=39197&ranEAID=bnwWbXPyqPU&ranSiteID=bnwWbXPyqPU-a4jQUlzHauF8b_Txcet_QQ&LSNPUBID=bnwWbXPyqPU&utm_source=aff-campaign&utm_medium=udemyads&couponCode=424A67958F240F0ACD7B"],
+          "context": [""]
+        },
+        {
+          "tag": "Space Render 1.0: Artificial Intelligence in 3D Animation",
+          "patterns": ["Space Render 1.0: Artificial Intelligence in 3D Animation","free courses"],
+          "responses": ["https://www.udemy.com/course/space-render-10-artificial-intelligence-in-3d-animation/?couponCode=D0F30D667057E3BCFB30","https://www.udemy.com/course/space-render-10-artificial-intelligence-in-3d-animation/?couponCode=D0F30D667057E3BCFB30"],
+          "context": [""]
+        },
+        {
+          "tag": "Choosing a Career based on Passion in 2021",
+          "patterns": ["Choosing a Career based on Passion in 2021","free courses"],
+          "responses": ["https://www.udemy.com/course/choosing-a-career-based-on-passion/?couponCode=8BF9369C5A47E640B970","https://www.udemy.com/course/choosing-a-career-based-on-passion/?couponCode=8BF9369C5A47E640B970"],
+          "context": [""]
+        },
+        {
+          "tag": "Get 5 Million Free Images and Videos for Commercial Use",
+          "patterns": ["Get 5 Million Free Images and Videos for Commercial Use","free courses"],
+          "responses": ["https://www.udemy.com/course/get-5-million-free-images-and-videos-for-commercial-use/?couponCode=3CCC35A453199D47B30A","https://www.udemy.com/course/get-5-million-free-images-and-videos-for-commercial-use/?couponCode=3CCC35A453199D47B30A"],
+          "context": [""]
+        },
+        {
+          "tag": "College Admissions Interview-Confidently Talk About Yourself",
+          "patterns": ["College Admissions Interview-Confidently Talk About Yourself","free courses"],
+          "responses": ["https://www.udemy.com/course/how-to-ace-your-college-interview/?couponCode=3BC6CAFD63EAD4BD3167","https://www.udemy.com/course/how-to-ace-your-college-interview/?couponCode=3BC6CAFD63EAD4BD3167"],
+          "context": [""]
+        },
+        {
+            "tag":"Machine Learning using Python CUTM1019(1-2-1)",
+            "patterns": ["Applications of Machine Learning","ml"],
+            "responses": ["https://www.youtube.com/watch?v=ahRcGObyEZo","https://www.slideshare.net/makabee/applications-of-machine-learning"],
+            "context": [""]
+        },
+        {
+            "tag":"Supervised vs Unsupervised Learning based on problem Definition",
+            "patterns": ["Supervised vs Unsupervised Learning based on problem Definition","ml"],
+            "responses": ["https://www.youtube.com/watch?v=cfj6yaYE86U","https://www.slideshare.net/SlideTeam1/supervised-machine-learning-with-types-and-techniques-236199994?qid=02a2fa9b-9594-495f-9bf6-f9e666396401&v=&b=&from_search=7"],
+            "context": [""]
+        },
+        {
+            "tag":"Understanding the problem and its possible solutions using IRIS datasets",
+            "patterns": ["Understanding the problem and its possible solutions using IRIS datasets.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=FLuqwQgSBDw","https://www.youtube.com/watch?v=FLuqwQgSBDw"],
+            "context": [""]
+        },
+        {
+            "tag":"Mathmatical library in Python numpy and its functions",
+            "patterns": ["Mathmatical library in Python numpy and its functions","ml"],
+            "responses": ["https://www.youtube.com/watch?v=EkYrfV7M1ks","https://www.slideshare.net/EdurekaIN/python-numpy-tutorial-numpy-array-edureka?qid=7e8a738e-8a96-4c14-9663-30622451a797&v=&b=&from_search=4"],
+            "context": [""]
+        },
+        {
+            "tag":"Science library in Python scipy and its functions",
+            "patterns": ["Science library in Python scipy and its functions","ml"],
+            "responses": ["https://www.youtube.com/watch?v=k8s-R3csOt0","https://www.slideshare.net/RalfGommers/scipy-10-and-beyond-a-story-of-community-and-code?qid=a60ab988-de51-4c44-9932-9e0de4176ad1&v=&b=&from_search=5"],
+            "context": [""]
+        },
+        {
+            "tag":"ML library in Python scikit-learn and its functions.",
+            "patterns": ["ML library in Python scikit-learn and its functions.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=bwZ3Qiuj3i8","https://scikit-learn.org/stable/tutorial/basic/tutorial.html"],
+            "context": [""]
+        },
+        {
+            "tag":"Linear Regression.",
+            "patterns": ["Linear Regression.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=E5RjzSK0fvY","https://www.slideshare.net/EdurekaIN/linear-regression-algorithm-linear-regression-in-python-machine-learning-algorithm-edureka?qid=4ee88172-27ec-4ff8-8f7e-cbb227d26bfb&v=&b=&from_search=10"],
+            "context": [""]
+        },
+        {
+            "tag":"Non-linear Regression",
+            "patterns": ["Non-linear Regression","ml"],
+            "responses": ["https://www.youtube.com/watch?v=sKrDYxQ9vTU","https://www.youtube.com/watch?v=sKrDYxQ9vTU"],
+            "context": [""]
+        },
+        {
+            "tag":"Model Evaluation.",
+            "patterns": ["Model Evaluation.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=c68JLu1Nfkw","https://www.youtube.com/watch?v=c68JLu1Nfkw"],
+            "context": [""]
+        },
+        {
+            "tag":"Evaluation Metrics in Regression Models",
+            "patterns": ["Evaluation Metrics in Regression Models","ml"],
+            "responses": ["https://www.youtube.com/watch?v=iLfgZfRGisE","https://www.youtube.com/watch?v=iLfgZfRGisE"],
+            "context": [""]
+        },
+        {
+            "tag":"Multiple Linear Regression.",
+            "patterns": ["Multiple Linear Regression.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=dQNpSa-bq4M","https://www.youtube.com/watch?v=dQNpSa-bq4M"],
+            "context": [""]
+        },
+        {
+            "tag":"Feature Reduction using PCA.",
+            "patterns": ["Feature Reduction using PCA.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=FgakZw6K1QQ","https://www.slideshare.net/AbhishekKumar4995/principal-component-analysis-pca-and-lda-ppt-slides?qid=8b19d7a4-30c9-4a2b-85a8-c311ec0a663c&v=&b=&from_search=6"],
+            "context": [""]
+        },
+        {
+            "tag":"Implementation of regression model on IRIS datasets.",
+            "patterns": ["Implementation of regression model on IRIS datasets.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=hd1W4CyPX58","https://www.youtube.com/watch?v=hd1W4CyPX58"],
+            "context": [""]
+        },
+        {
+            "tag":"Defining Classification Problem with IRIS datasets.",
+            "patterns": ["Defining Classification Problem with IRIS datasets.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=Y17Y_8RK6pc","https://www.youtube.com/watch?v=Y17Y_8RK6pc"],
+            "context": [""]
+        },
+        {
+            "tag":"Create the train/test set using scikit-learn using scikit-learn",
+            "patterns": ["Create the train/test set using scikit-learn using scikit-learn","ml"],
+            "responses": ["https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html","https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html"],
+            "context": [""]
+        },
+        {
+            "tag":"Confussion Matrix, Accuraccy, Sensitivity, specificity.",
+            "patterns": ["Confussion Matrix, Accuraccy, Sensitivity, specificity.","ml"],
+            "responses": ["https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html","https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html"],
+            "context": [""]
+        },
+        {
+            "tag":"Mathematical formulation of K-Nearest Neighbour Algorithm for binary classification.",
+            "patterns": ["Mathematical formulation of K-Nearest Neighbour Algorithm for binary classification.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=4HKqjENq9OU","https://www.youtube.com/watch?v=4HKqjENq9OU"],
+            "context": [""]
+        },
+        {
+            "tag":"Classification using Decision tree.",
+            "patterns": ["Classification using Decision tree.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=7VeUPuFGJHk","https://www.youtube.com/watch?v=7VeUPuFGJHk"],
+            "context": [""]
+        },
+        {
+            "tag":"Construction of decision trees based on entropy.",
+            "patterns": ["Construction of decision trees based on entropy.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=7VeUPuFGJHk","https://www.youtube.com/watch?v=7VeUPuFGJHk"],
+            "context": [""]
+        },
+        {
+            "tag":"Implementation of Decision Tree using sci-kit learn",
+            "patterns": ["Implementation of Decision Tree using sci-kit learn","ml"],
+            "responses": ["https://www.youtube.com/watch?v=PHxYNGo8NcI","https://www.youtube.com/watch?v=PHxYNGo8NcI"],
+            "context": [""]
+        },
+        {
+            "tag":"Classification using Support Vector Machines.",
+            "patterns": ["Classification using Support Vector Machines.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=Y6RRHw9uN9o","https://www.youtube.com/watch?v=Y6RRHw9uN9o"],
+            "context": [""]
+        },
+        {
+            "tag":"SVM for Binary classification",
+            "patterns": ["SVM for Binary classification","ml"],
+            "responses": ["https://www.youtube.com/watch?v=T5zJHhTO1FA","https://www.slideshare.net/Simplilearn/support-vector-machine-how-support-vector-machine-works-svm-in-machine-learning-simplilearn?qid=2b5b3f60-7ed5-4542-90b1-1a807a456563&v=&b=&from_search=4"],
+            "context": [""]
+        },
+        {
+            "tag":"Regulating different functional parameters of SVM using sci-kit learn.",
+            "patterns": ["Regulating different functional parameters of SVM using sci-kit learn.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=93AjE1YY5II","https://www.youtube.com/watch?v=93AjE1YY5II"],
+            "context": [""]
+        },
+        {
+            "tag":"SVM for multi class classification.",
+            "patterns": ["SVM for multi class classification.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=kH6T_XL10-A","https://www.youtube.com/watch?v=kH6T_XL10-A"],
+            "context": [""]
+        },
+        {
+            "tag":"Implementation of Support Vector Machines.",
+            "patterns": ["Implementation of Support Vector Machines.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=zEabrO9l1vg","https://www.youtube.com/watch?v=zEabrO9l1vg"],
+            "context": [""]
+        },
+        {
+            "tag":"Defining clustering and its application in ML.",
+            "patterns": ["Defining clustering and its application in ML.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=V-8E0KhNrI8","https://www.youtube.com/watch?v=V-8E0KhNrI8"],
+            "context": [""]
+        },
+        {
+            "tag":"Mathematical formulation of K-Means Clustering.",
+            "patterns": ["Mathematical formulation of K-Means Clustering.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=YWgcKSa_2ag","https://www.slideshare.net/Simplilearn/k-means-clustering-algorithm-k-means-clustering-example-machine-learning-algorithms-simplilearn?qid=100ac021-2fb4-4b1f-b3ce-b9b561cf3176&v=&b=&from_search=3"],
+            "context": [""]
+        },
+        
+        {
+            "tag":"Defining K value and its importance in K-Means Clustering.",
+            "patterns": ["Defining K value and its importance in K-Means Clustering.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=4b5d3muPQmA","https://www.youtube.com/watch?v=4b5d3muPQmA"],
+            "context": [""]
+        },
+        
+        {
+            "tag":"Implementation of K-Means Clustering in Scikit-learn.",
+            "patterns": ["Implementation of K-Means Clustering in Scikit-learn.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=asW8tp1qiFQ","https://www.slideshare.net/SarahGuido/kmeans-clustering-with-scikitlearn?qid=100ac021-2fb4-4b1f-b3ce-b9b561cf3176&v=&b=&from_search=1"],
+            "context": [""]
+        },
+        
+        {
+            "tag":"Finding appropriate K value using elbow technique for a particular problem.",
+            "patterns": ["Finding appropriate K value using elbow technique for a particular problem.","ml"],
+            "responses": ["https://www.youtube.com/watch?v=IEBsrUQ4eMc","https://www.youtube.com/watch?v=IEBsrUQ4eMc"],
+            "context": [""]
+        },
+        
+        {
+            "tag":"predicting iris flower species with k-means clustering.",
+            "patterns": ["predicting iris flower species with k-means clustering.","ml"],
+            "responses": ["https://medium.com/@belen.sanchez27/predicting-iris-flower-species-with-k-means-clustering-in-python-f6e46806aaee","https://medium.com/@belen.sanchez27/predicting-iris-flower-species-with-k-means-clustering-in-python-f6e46806aaee"],
+            "context": [""]
+        }
+    ]
+}
